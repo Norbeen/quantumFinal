@@ -17,7 +17,7 @@ print('\nExecuting...\n')
 N = 899
 a = 3
 
-factors = Helper(N, a)
+factors = Helper(N, a,backend)
 
 
 xvals = factors.order()
